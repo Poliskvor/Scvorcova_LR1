@@ -9,10 +9,11 @@ double B;
 
 int enterVolume(){
     cin >> B;
+    return B;
 }
 
 int convertToMegabytes(double B) {
-
+    return B / 1024;
 }
 
 double convertToGigabytes(double B) {
