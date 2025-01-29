@@ -17,7 +17,7 @@ int convertToMegabytes(double B) {
 }
 
 double convertToGigabytes(double B) {
-
+    return B / 1024 / 1024;
 }
 
 int main() {
